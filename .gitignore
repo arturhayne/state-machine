@@ -1,0 +1,12 @@
+
+.idea/
+
+vendor/
+
+.phpunit.result.cache
+
+.env
+
+composer.lock
+
+result.json

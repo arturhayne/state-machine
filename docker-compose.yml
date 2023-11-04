@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+  web:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: fsm:v1
+    container_name: fsm
+    environment:
+      - OPCACHE_ENABLED=0
+      - XDEBUG_ENABLED=1
+    volumes:
+      - type: bind
+        source: ./
+        target: /var/www/html
+    ports:
+      - 8080:80
