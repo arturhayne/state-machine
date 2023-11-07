@@ -10,3 +10,13 @@ vendor/
 composer.lock
 
 result.json
+
+.vscode
+
+.phpunit.cache
+
+phpunit.xml.bak
+
+.php-cs-fixer.cache
+
+.php-cs-fixer.dist.php
